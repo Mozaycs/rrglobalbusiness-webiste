@@ -1,6 +1,6 @@
+import Logo from '../images/logo.png'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Logo from '../images/logo.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -11,14 +11,16 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
-        <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
-        </p>
+      <h1>Your Vision, We Innovate & Automate </h1>
+<p>
+<h2>Enablers of cutting-edge technology solutions like 
+  <br/>Blockchain, AI & Big data hadoop.</h2>
+
+  <br />
+  Whether you want to build an application from scratch or refactor and upgrade an existing code, 
+  we radically improve your efficiency, productivity and cost effectiveness to deliver products and services in a smarted and scalable way.
+  
+</p>
       </div>
     </div>
     <nav>
