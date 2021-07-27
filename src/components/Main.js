@@ -81,7 +81,6 @@ const Main = props => {
         </p>
         {close}
       </article>
-
       <article
         id="about"
         className={`${props.article === 'about' ? 'active' : ''} ${
