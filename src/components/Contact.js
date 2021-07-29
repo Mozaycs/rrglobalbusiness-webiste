@@ -46,6 +46,27 @@ const Contact = () => {
             </ul>
         )}
       </form>
+      <h2 className="major">Address</h2>
+      <p className="address">
+        <div className="address-column">
+          <span className="address-heading">TechRD SOLUTIONS S.R.O.</span>
+          Nivy Tower, Svatoplukova 1, <br />
+          82109 Bratislava, Slovakia <br />
+          Reg.No.: 45853690
+        </div>
+        <div className="address-column">
+          <span className="address-heading">TechRD SOLUTIONS PRIVATE LIMITED</span>
+          No.30, 1st Main, R.M.S. Colony, <br />
+          560049 Bangalore, India <br />
+          Reg.No.: 142252
+        </div>
+        <div className="address-column">
+          <span className="address-heading">KERN.ADLER SOFTWARE SRL</span>
+          Chaussée d’Alsemberg 842, <br />
+          1180 Uccle, Belgium <br />
+          Reg.No.: 0760608870
+        </div>
+      </p>
       <ul className="icons">
         <li>
           <a href="https://github.com/TechResearchDevelopment" className="icon fa-github" target="_blank">
