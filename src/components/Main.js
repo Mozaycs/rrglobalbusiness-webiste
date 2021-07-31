@@ -2,8 +2,8 @@ import Contact from './Contact'
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import Work from './Work'
 
 const Main = props => {
   let close = (
@@ -97,7 +97,8 @@ const Main = props => {
         style={{ display: 'none' }}
       >
         <h2 className="major">Work</h2>
-        <span className="image main">
+        <Work />
+        {/* <span className="image main">
           <img src={pic02} alt="" />
         </span>
         <p>
@@ -105,7 +106,7 @@ const Main = props => {
           eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna
           nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin
           mauris nec lorem luctus ultrices.
-        </p>
+        </p> */}
    
         {close}
       </article>
