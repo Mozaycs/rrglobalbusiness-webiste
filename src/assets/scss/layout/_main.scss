@@ -145,3 +145,22 @@
 		}
 	}
 }
+
+.work_images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	img {
+		width: 42%;
+		padding: 20px;
+		margin: 10px 10px;
+	}
+}
+
+@include breakpoint(xsmall) {
+	.work_images {
+		img {
+			width: 85%;
+		}
+	}
+}
