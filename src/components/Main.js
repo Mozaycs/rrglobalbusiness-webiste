@@ -42,7 +42,24 @@ const Main = props => {
           way, check out my <a href="#work">awesome work</a>.
         </p>
         <p>
-       <li> Technical Product Development</li>
+       </p>
+        {close}
+      </article>
+
+      <article
+        id="work"
+        className={`${props.article === 'work' ? 'active' : ''} ${
+          props.articleTimeout ? 'timeout' : ''
+        }`}
+        style={{ display: 'none' }}
+      >
+        <h2 className="major">Work</h2>
+        {/* <Work /> */}
+        {/* <span className="image main">
+          <img src={pic02} alt="" />
+        </span> */}
+        <p>
+          <li> Technical Product Development</li>
 
         <li>Leadership and Team building</li>
 
@@ -84,29 +101,7 @@ const Main = props => {
 
 
         <li>Software development lifecycle </li>
-
         </p>
-        {close}
-      </article>
-
-      <article
-        id="work"
-        className={`${props.article === 'work' ? 'active' : ''} ${
-          props.articleTimeout ? 'timeout' : ''
-        }`}
-        style={{ display: 'none' }}
-      >
-        <h2 className="major">Work</h2>
-        <Work />
-        {/* <span className="image main">
-          <img src={pic02} alt="" />
-        </span>
-        <p>
-          Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at
-          eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna
-          nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin
-          mauris nec lorem luctus ultrices.
-        </p> */}
    
         {close}
       </article>
