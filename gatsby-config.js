@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'TechRD',
-    author: 'TechRD',
+    title: 'RR Global Business',
+    author: 'RR Global Business',
     description: 'YOUR VISION, WE INNOVATE & AUTOMATE',
   },
   plugins: [

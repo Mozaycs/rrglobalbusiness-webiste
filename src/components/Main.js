@@ -122,12 +122,7 @@ const Main = props => {
           <img src={pic03} alt="" />
         </span>
         <p>
-          Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-          eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat
-          volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam.
-          Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero
-          et malesuada fames ac ante ipsum primis in faucibus. Cras viverra
-          ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.
+          We are a passionate team developing innovation and complex solutions. Being a technology pioneer responsible for ensuring a company is making great products for their customers. Also the driver behind the commercialization of technology. Develop coherent platforms backed up with useful features on a variety of digital channels. Importance in these companies is rising due to the fact that users are demanding increasingly sophisticated products.
         </p>
         {close}
       </article>
